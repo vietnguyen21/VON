@@ -1,0 +1,222 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+html{
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.button{
+    background-color:#aa5847;
+
+}
+.taskbar {
+    display: flex;
+    position:fixed;
+    width:100%;
+    z-index:2;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height:90px;
+}
+.menu-icon {
+   font-size: 24px;
+   padding-left: 10px;
+   font-weight:bold;
+   font-size: 40px;
+}
+.menu-icon:hover{
+    opacity:0.8;
+    transition-duration:0.2s;
+}
+.title {
+   font-size: 75px;
+   margin-right:45%;
+   font-weight:bold;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top:90px;
+    height: 100vh - 90px;
+    background-color:#000000; /* Use rgba to set the background color with some transparency */
+    justify-content: center;
+    align-items: start;
+    z-index: 2;
+    transition: opacity 0.5s ease;
+}
+.close{
+        width:30px;
+        height:30px;
+        font-size:30px;
+        font-weight:bold;
+        color:white;
+        background-color:black;
+        border:none;
+        text-align:center;
+}
+.list{
+    margin-top:12%;
+    font-size:46px;
+    font-weight:bold;
+    color:white;
+    list-style-type:none;
+    justify-content:center;
+    align-items:center;
+}
+.list li{
+    text-align:center;
+    line-height:45px
+}
+.list a{
+    text-decoration: none;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+.ti-close{
+    font-weight:bold;
+}
+.menu-icon {
+    font-size: 24px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-icon:hover {
+    opacity: 0.8;
+    transition-duration: 0.2s;
+}
+
+.content{
+    padding:0;
+}
+.about-us{
+    background-color:#FCDB33;
+    width:100%;
+    height:100vh;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-booking{
+    margin: 140px;
+    padding: 30px;
+    border: solid black 5px;
+}
+.text{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size:20px;
+}
+.submit{
+    margin-top: 20px;
+}
+
+.gallery{
+    background: url('image/1.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-gallery{
+    text-align: center;
+    font-size:100px;
+    font-style:italic;
+    font-weight:bold;
+    color: white;
+    text-decoration:none;
+    letter-spacing: 10px
+}
+.gallery:hover{
+    opacity:0.9;
+    transition:2s;
+}
+.video{
+    background: url('image/2.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity:0.8
+}
+.contact{
+    background: url('image/4.jpg') no-repeat center center ;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    text-align:center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    opacity:0.8
+}
+.text-contact{
+    text-align: center;
+    font-size:100px;
+    font-style:italic;
+    padding-left:5%;
+    font-weight:bold;
+    color: white;
+    text-decoration:none;
+    letter-spacing: 8px
+}
+.VON{
+    background-color:black;
+    width:100%;
+    height:100vh;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.node{
+    background-color:white;
+    border-radius:50%;
+}
+.footer{
+    padding:25px;
+    background-color: black;
+}
+.ti{
+    color: #000000;
+}
+@media only screen and (max-width: 1220px) {
+    .contact{
+
+    }
+    .text-contact{
+        color:white
+    }
+}
